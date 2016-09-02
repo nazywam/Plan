@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> Zajęcia </title>
+    <link rel="stylesheet" href="timetablejs.css">
+    <link rel="stylesheet" href="demo.css">
+
+    
+  </head>
+  <body>
+
+    <center>
+      <div class="timetable">
+        <h1>Poniedziałek</h1>
+        <div class="pn table"></div>
+        <h1>Wtorek</h1>
+        <div class="wt table"></div>
+        <h1>Środa</h1>
+        <div class="sr table"></div>
+        <h1>Czwartek</h1>
+        <div class="cz table"></div>
+        <h1>Piątek</h1>
+        <div class="pi table"></div>
+      </div>
+
+      <form>
+        <br>
+        <input type="button" value="Printy print" onclick=serialize() > </input>
+      </form>
+    </center>
+    
+
+    <script src="timetable.js" charset="UTF-8"></script>
+    <script src="tables.js" charset="UTF-8"></script>
+
+
+    <script>
+
+      tables = document.getElementsByClassName("table")
+      for(var i=0; i<tables.length; i++){
+        tables[i].removeChild(tables[i].children[0])
+        tables[i].style.display = "inline-block"
+      }
+
+
+      classes = ["Logika dla informatyków", "Fizyka 1.1B", "Analiza matematyczna 1.1 A", "Podstawy programowania", "Algebra z geom. analit. A", "Organizacja sys. komputerowych", "Algebra z geom. analit."]
+
+      colors = ["#7f65b3", "#fd242a", "#839ea8", "#a25258", "#464b40", "#761468", "#963c2e", "#55ce4f", "#ca252e", "#3331a6"]
+      darkerColors = ["#5f4593", "#dd040a", "#637e98", "#923238", "#262b20", "#560448", "#761c0e", "#35ae2f", "#aa050e", "#131196"]
+
+      entries = document.getElementsByClassName("time-entry")
+      for(var i=0; i<entries.length; i++){
+
+        entries[i].title = entries[i].attributes["data-group"].value+" "+entries[i].attributes["data-type"].value+" "+entries[i].attributes["data-person"].value
+
+
+        className = entries[i].className.split('time-entry')[1]
+        colorIndex = classes.indexOf(className.trim())
+        if(colorIndex == -1){
+          console.log("Class not found in classes: "+className)
+        }
+
+
+
+        entries[i].style.background = colors[colorIndex]
+        entries[i].style.borderColor = darkerColors[colorIndex]
+
+
+        entries[i].onclick=function() {
+
+          courses = document.getElementsByClassName(this.className)
+
+          if(this.attributes["data-selected"].value == 1){
+            for(var j=0; j<courses.length; j++){
+              if(courses[j].attributes["data-type"].value == this.attributes["data-type"].value){
+                className = courses[j].className.split('time-entry')[1]
+                colorIndex = classes.indexOf(className.trim())
+                courses[j].style.background = colors[colorIndex]
+                courses[j].attributes["data-selected"].value  = 0;
+                courses[j].style.visibility = "visible"
+              }
+            }
+          } else {
+            for(var j=0; j<courses.length; j++){
+              if(courses[j].className == this.className){
+                //ten sam kurs
+                if(courses[j].attributes["data-type"].value == this.attributes["data-type"].value){
+                  //ten sam typ
+                  if(courses[j].attributes["data-group"].value == this.attributes["data-group"].value){
+                    //ta sama grupa, zaznaczone
+                    className = courses[j].className.split('time-entry')[1]
+                    colorIndex = classes.indexOf(className.trim())
+                    courses[j].style.background = darkerColors[colorIndex]
+                  } else {
+                    //inna grupa, niewidoczne
+                    courses[j].style.visibility = "hidden"
+                  }
+                  courses[j].attributes["data-selected"].value  = 1; 
+                }
+              }
+            }
+          }
+        };
+          
+      }
+
+
+  function serialize(){
+    output = []
+    entries = document.getElementsByClassName("time-entry")
+    for(var i=0; i<entries.length; i++){
+      if(entries[i].attributes["data-selected"].value == 1 && entries[i].style.visibility != "hidden"){
+        output.push(entries[i].textContent + " " + entries[i].attributes["data-type"].value + " " + entries[i].attributes["data-group"].value + " " + entries[i].attributes["data-person"].value + "\n")
+      }
+    }
+    output.sort()
+    alert(output.join(""))
+
+  }
+  </script>
+
+
+
+</body>
+</html>
