@@ -592,7 +592,7 @@ zajecia = {
 			'person': '',
 			'week'	: '',
 		}, {
-			'name'	: 'Algebra z geom. analit.',
+			'name'	: 'Algebra z geom. analit. A',
 			'group'	: '6/10',
 			'type'	: 'C',
 			'start'	: '17:05',
@@ -626,7 +626,7 @@ zajecia = {
 			'person': '',
 			'week'	: 'p',
 		}, {
-			'name'	: 'Algebra z geom. analit.',
+			'name'	: 'Algebra z geom. analit. A',
 			'group'	: '7/10',
 			'type'	: 'C',
 			'start'	: '13:15',
@@ -652,7 +652,7 @@ zajecia = {
 			'person': '',
 			'week'	: 'p',
 		}, {
-			'name'	: 'Algebra z geom. analit.',
+			'name'	: 'Algebra z geom. analit. A',
 			'group'	: '8/10',
 			'type'	: 'C',
 			'start'	: '13:15',
