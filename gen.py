@@ -12,7 +12,7 @@ zajecia = {
 			'start'	: '07:30',
 			'finish': '09:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		},{
 			'name' 	: 'Analiza matematyczna 1.1 A',
 			'group'	: '1/2',
@@ -20,7 +20,7 @@ zajecia = {
 			'start'	: '11:15',
 			'finish': '13:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		},{
 			'name'	: 'Logika dla informatyków',
 			'group'	: '3/10',
@@ -28,7 +28,7 @@ zajecia = {
 			'start'	: '13:15',
 			'finish': '15:00',
 			'person': 'Radosław Katarzyniak',
-			'week'	: 't',
+			'week'	: '',
 		}, {
 			'name'	: 'Fizyka 1.1B',
 			'group'	: '1/10',
@@ -36,25 +36,33 @@ zajecia = {
 			'start'	: '15:15',
 			'finish': '16:00',
 			'person': 'Ryszard Gonczarek',
-			'week'	: 't',
+			'week'	: '',
 		}
 	],[
 		{
-			'name'	: '',
-			'group'	: '',
-			'type'	: '',
-			'start'	: '',
-			'finish': '',
+			'name'	: 'Podstawy programowania',
+			'group'	: '2',
+			'type'	: 'L',
+			'start'	: '07:30',
+			'finish': '09:00',
 			'person': '',
-			'week'	: '',
+			'week'	: 'np',
 		}, {
+			'name'	: 'Podstawy programowania',
+			'group'	: '3',
+			'type'	: 'L',
+			'start'	: '07:30',
+			'finish': '09:00',
+			'person': '',
+			'week'	: 'p',
+		},  {
 			'name'	: 'Analiza matematyczna 1.1 A',
 			'group'	: '2/10',
 			'type'	: 'C',
 			'start'	: '09:15',
 			'finish': '11:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}, {
 			'name'	: 'Logika dla informatyków',
 			'group'	: '2/10',
@@ -62,27 +70,59 @@ zajecia = {
 			'start'	: '15:15',
 			'finish': '16:55',
 			'person': 'Radosław Katarzyniak',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
+			'name'	: 'Podstawy programowania',
+			'group'	: '4',
+			'type'	: 'L',
+			'start'	: '07:30',
+			'finish': '09:00',
+			'person': '',
+			'week'	: 'np',
+		}, {
+			'name'	: 'Podstawy programowania',
+			'group'	: '5',
+			'type'	: 'L',
+			'start'	: '07:30',
+			'finish': '09:00',
+			'person': '',
+			'week'	: 'p',
+		}, {
 			'name'	: 'Analiza matematyczna 1.1 A',
 			'group'	: '3/10',
 			'type'	: 'C',
 			'start'	: '13:15',
 			'finish': '15:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
+			'name'	: 'Podstawy programowania',
+			'group'	: '6',
+			'type'	: 'L',
+			'start'	: '09:15',
+			'finish': '11:00',
+			'person': 'Urszula',
+			'week'	: 'np',
+		}, {
+			'name'	: 'Podstawy programowania',
+			'group'	: '7',
+			'type'	: 'L',
+			'start'	: '09:15',
+			'finish': '11:00',
+			'person': '',
+			'week'	: 'p',
+		}, {
 			'name'	: 'Fizyka 1.1B',
 			'group'	: '4/10',
 			'type'	: 'C',
 			'start'	: '16:10',
 			'finish': '16:55',
 			'person': 'Ryszard Gonczarek',
-			'week'	: 't',
+			'week'	: '',
 		}, {
 			'name'	: 'Logika dla informatyków',
 			'group'	: '4/10',
@@ -90,8 +130,34 @@ zajecia = {
 			'start'	: '17:05',
 			'finish': '18:45',
 			'person': 'Radosław Katarzyniak',
-			'week'	: 't',
+			'week'	: '',
 		} 
+	], [
+		{
+			'name'	: 'Podstawy programowania',
+			'group'	: '8',
+			'type'	: 'L',
+			'start'	: '09:15',
+			'finish': '11:00',
+			'person': 'Edward',
+			'week'	: 'np',
+		}, {
+			'name'	: 'Podstawy programowania',
+			'group'	: '9',
+			'type'	: 'L',
+			'start'	: '09:15',
+			'finish': '11:00',
+			'person': '',
+			'week'	: 'p',
+		}, {
+			'name'	: 'Organizacja sys. komputerowych',
+			'group'	: '5/10',
+			'type'	: 'C',
+			'start'	: '15:15',
+			'finish': '16:55',
+			'person': 'Ziemowit Nowak',
+			'week'	: 'np',
+		}
 	]
 ],'wt':[
 	[
@@ -102,7 +168,7 @@ zajecia = {
 			'start'	: '07:30',
 			'finish': '09:00',
 			'person': 'Janusz Ratajczak',
-			'week'	: 't',
+			'week'	: '',
 		},{
 			'name'	: 'Logika dla informatyków',
 			'group'	: '5/10',
@@ -110,7 +176,7 @@ zajecia = {
 			'start'	: '09:15',
 			'finish': '11:00',
 			'person': 'Radosław Katarzyniak',
-			'week'	: 't',
+			'week'	: '',
 		},{
 			'name'	: 'Podstawy programowania',
 			'group'	: '1/2',
@@ -118,7 +184,7 @@ zajecia = {
 			'start'	: '11:15',
 			'finish': '13:00',
 			'person': 'Janusz Ratajczak',
-			'week'	: 't',
+			'week'	: '',
 		},{
 			'name'	: 'Algebra z geom. analit. A',
 			'group'	: '1/10',
@@ -126,7 +192,7 @@ zajecia = {
 			'start'	: '13:15',
 			'finish': '15:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}
 	],[
 		{
@@ -136,7 +202,7 @@ zajecia = {
 			'start'	: '09:15',
 			'finish': '11:00',
 			'person': 'Janusz Ratajczak',
-			'week'	: 't',
+			'week'	: '',
 		},{
 			'name'	: 'Algebra z geom. analit. A',
 			'group'	: '2/10',
@@ -144,7 +210,7 @@ zajecia = {
 			'start'	: '15:15',
 			'finish': '16:55',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		},
 	], [
 		{
@@ -154,7 +220,7 @@ zajecia = {
 			'start'	: '13:15',
 			'finish': '15:00',
 			'person': 'Wojciech Thomas',
-			'week'	: 't',
+			'week'	: '',
 		},
 	], [
 		{
@@ -164,7 +230,7 @@ zajecia = {
 			'start'	: '07:30',
 			'finish': '09:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		},{
 			'name'	: 'Podstawy programowania',
 			'group'	: '2/2',
@@ -172,7 +238,7 @@ zajecia = {
 			'start'	: '13:15',
 			'finish': '15:00',
 			'person': 'Janusz Ratajczak',
-			'week'	: 't',
+			'week'	: '',
 		},
 	],[
 		{
@@ -182,7 +248,7 @@ zajecia = {
 			'start'	: '09:15',
 			'finish': '11:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
@@ -192,7 +258,7 @@ zajecia = {
 			'start'	: '07:30',
 			'finish': '08:15',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		},{
 			'name'	: 'Podstawy programowania',
 			'group'	: '6/10',
@@ -200,7 +266,7 @@ zajecia = {
 			'start'	: '11:15',
 			'finish': '13:00',
 			'person': 'Wojciech Thomas',
-			'week'	: 't',
+			'week'	: '',
 		},
 	], [
 		{
@@ -210,7 +276,7 @@ zajecia = {
 			'start'	: '08:15',
 			'finish': '09:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		},{
 			'name'	: 'Logika dla informatyków',
 			'group'	: '7/10',
@@ -218,7 +284,7 @@ zajecia = {
 			'start'	: '11:15',
 			'finish': '13:00',
 			'person': 'Grzegorz Popek',
-			'week'	: 't',
+			'week'	: '',
 		},
 	], [
 		{
@@ -228,7 +294,7 @@ zajecia = {
 			'start'	: '09:15',
 			'finish': '11:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
@@ -238,7 +304,7 @@ zajecia = {
 			'start'	: '11:15',
 			'finish': '13:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		},
 	], [
 		{
@@ -248,7 +314,7 @@ zajecia = {
 			'start'	: '07:30',
 			'finish': '09:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		},{
 			'name'	: 'Podstawy programowania',
 			'group'	: '10/10',
@@ -256,7 +322,7 @@ zajecia = {
 			'start'	: '15:15',
 			'finish': '16:55',
 			'person': 'Wojciech Thomas',
-			'week'	: 't',
+			'week'	: '',
 		} 
 	]
 ],'sr':[
@@ -268,7 +334,7 @@ zajecia = {
 			'start'	: '07:30',
 			'finish': '09:00',
 			'person': 'Leszek Borzemski',
-			'week'	: 't',
+			'week'	: '',
 		}, {
 			'name'	: 'Algebra z geom. analit. A',
 			'group'	: '1/2',
@@ -276,27 +342,43 @@ zajecia = {
 			'start'	: '15:15',
 			'finish': '17:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
+			'name'	: 'Organizacja sys. komputerowych',
+			'group'	: '3/10',
+			'type'	: 'C',
+			'start'	: '09:15',
+			'finish': '11:00',
+			'person': 'Ziemowit Nowak',
+			'week'	: 'np',
+		}, {
 			'name'	: 'Algebra z geom. analit. A',
 			'group'	: '3/10',
 			'type'	: 'C',
 			'start'	: '13:15',
 			'finish': '15:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
+			'name'	: 'Organizacja sys. komputerowych',
+			'group'	: '4/10',
+			'type'	: 'C',
+			'start'	: '09:15',
+			'finish': '11:00',
+			'person': 'Ziemowit Nowak',
+			'week'	: 'p',
+		}, {
 			'name'	: 'Algebra z geom. analit. A',
 			'group'	: '4/10',
 			'type'	: 'C',
 			'start'	: '11:15',
 			'finish': '13:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
@@ -306,7 +388,15 @@ zajecia = {
 			'start'	: '09:15',
 			'finish': '11:00',
 			'person': 'Janusz Ratajczak',
-			'week'	: 't',
+			'week'	: '',
+		}, {
+			'name'	: 'Organizacja sys. komputerowych',
+			'group'	: '8/10',
+			'type'	: 'C',
+			'start'	: '13:15',
+			'finish': '15:00',
+			'person': 'Ziemowit Nowak',
+			'week'	: 'p',
 		}
 	], [
 		{
@@ -316,15 +406,31 @@ zajecia = {
 			'start'	: '09:15',
 			'finish': '11:00',
 			'person': 'Leszek Borzemski',
-			'week'	: 't',
-		},{
+			'week'	: '',
+		}, {
+			'name'	: 'Podstawy programowania',
+			'group'	: '10',
+			'type'	: 'L',
+			'start'	: '11:15',
+			'finish': '13:00',
+			'person': 'Janusz Ratajczak',
+			'week'	: 'np',
+		}, {
+			'name'	: 'Podstawy programowania',
+			'group'	: '11',
+			'type'	: 'L',
+			'start'	: '11:15',
+			'finish': '13:00',
+			'person': '',
+			'week'	: 'p',
+		}, {
 			'name'	: 'Logika dla informatyków',
 			'group'	: '2/2',
 			'type'	: 'W',
 			'start'	: '13:15',
 			'finish': '15:00',
 			'person': 'Ngoc Thanh Nguyen',
-			'week'	: 't',
+			'week'	: '',
 		},{
 			'name'	: 'Fizyka 1.1B',
 			'group'	: '2/2',
@@ -332,7 +438,7 @@ zajecia = {
 			'start'	: '15:15',
 			'finish': '16:55',
 			'person': 'Lucjan Jacak',
-			'week'	: 't',
+			'week'	: '',
 		}
 	],[
 		{
@@ -342,7 +448,7 @@ zajecia = {
 			'start'	: '07:00',
 			'finish': '09:00',
 			'person': 'Janusz Ratajczak',
-			'week'	: 't',
+			'week'	: '',
 		},{
 			'name'	: 'Podstawy programowania',
 			'group'	: '8/10',
@@ -350,19 +456,79 @@ zajecia = {
 			'start'	: '11:15',
 			'finish': '13:00',
 			'person': 'Edward Bieleninik',
-			'week'	: 't',
+			'week'	: '',
+		}
+	],[
+		{
+			'name'	: 'Organizacja sys. komputerowych',
+			'group'	: '9/10',
+			'type'	: 'C',
+			'start'	: '11:15',
+			'finish': '13:00',
+			'person': 'Ziemowit Nowak',
+			'week'	: 'np',
+		}
+	],[
+		{
+			'name'	: 'Podstawy programowania',
+			'group'	: 'r',
+			'type'	: 'L',
+			'start'	: '07:30',
+			'finish': '09:00',
+			'person': '',
+			'week'	: 'np',
+		},{
+			'name'	: 'Podstawy programowania',
+			'group'	: 's',
+			'type'	: 'L',
+			'start'	: '07:30',
+			'finish': '09:00',
+			'person': '',
+			'week'	: 'p',
+		}, {
+			'name'	: 'Organizacja sys. komputerowych',
+			'group'	: '10/10',
+			'type'	: 'C',
+			'start'	: '11:15',
+			'finish': '13:00',
+			'person': 'Ziemowit Nowak',
+			'week'	: 'p',
 		}
 	]
 ],'cz':[
 	[
 		{
+			'name'	: 'Podstawy programowania',
+			'group'	: 't',
+			'type'	: 'L',
+			'start'	: '07:30',
+			'finish': '09:00',
+			'person': '',
+			'week'	: 'np',
+		},{
+			'name'	: 'Podstawy programowania',
+			'group'	: 'a',
+			'type'	: 'L',
+			'start'	: '07:30',
+			'finish': '09:00',
+			'person': '',
+			'week'	: 'p',
+		},{
+			'name'	: 'Organizacja sys. komputerowych',
+			'group'	: '1/10',
+			'type'	: 'C',
+			'start'	: '11:15',
+			'finish': '13:00',
+			'person': 'Adrianna Koziorkiewicz-Hetmańska',
+			'week'	: 'np',
+		}, {
 			'name'	: 'Logika dla informatyków',
 			'group'	: '1/10',
 			'type'	: 'C',
 			'start'	: '15:15',
 			'finish': '16:55',
 			'person': 'Arkadiusz Liber',
-			'week'	: 't',
+			'week'	: '',
 		},{
 			'name'	: 'Fizyka 1.1B',
 			'group'	: '1/2',
@@ -370,17 +536,25 @@ zajecia = {
 			'start'	: '17:05',
 			'finish': '18:45',
 			'person': 'Andrzej Radosz',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
+			'name'	: 'Organizacja sys. komputerowych',
+			'group'	: '2/10',
+			'type'	: 'C',
+			'start'	: '11:15',
+			'finish': '13:00',
+			'person': 'Adrianna Koziorkiewicz-Hetmańska',
+			'week'	: 'p',
+		}, {
 			'name'	: 'Fizyka 1.1B',
 			'group'	: '2/10',
 			'type'	: 'C',
 			'start'	: '15:15',
 			'finish': '16:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}
 	],[
 		{
@@ -390,17 +564,25 @@ zajecia = {
 			'start'	: '16:10',
 			'finish': '16:55',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
+			'name'	: 'Organizacja sys. komputerowych',
+			'group'	: '6/10',
+			'type'	: 'C',
+			'start'	: '09:15',
+			'finish': '11:00',
+			'person': 'Adrianna Koziorkiewicz-Hetmańska',
+			'week'	: 'np',
+		}, {
 			'name'	: 'Logika dla informatyków',
 			'group'	: '6/10',
 			'type'	: 'C',
 			'start'	: '13:15',
 			'finish': '15:00',
 			'person': 'Andrzej Gawrych-Żukowski',
-			'week'	: 't',
+			'week'	: '',
 		}, {
 			'name'	: 'Algebra z geom. analit. A',
 			'group'	: '2/2',
@@ -408,7 +590,7 @@ zajecia = {
 			'start'	: '15:15',
 			'finish': '16:55',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}, {
 			'name'	: 'Algebra z geom. analit.',
 			'group'	: '6/10',
@@ -416,17 +598,67 @@ zajecia = {
 			'start'	: '17:05',
 			'finish': '18:45',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
+			'name'	: 'Organizacja sys. komputerowych',
+			'group'	: '7/10',
+			'type'	: 'C',
+			'start'	: '09:15',
+			'finish': '11:00',
+			'person': 'Adrianna Koziorkiewicz-Hetmańska',
+			'week'	: 'p',
+		}, {
+			'name'	: 'Podstawy programowania',
+			'group'	: 'l',
+			'type'	: 'L',
+			'start'	: '11:15',
+			'finish': '13:00',
+			'person': 'Edward',
+			'week'	: 'np',
+		}, {
+			'name'	: 'Podstawy programowania',
+			'group'	: 'm',
+			'type'	: 'L',
+			'start'	: '11:15',
+			'finish': '13:00',
+			'person': '',
+			'week'	: 'p',
+		}, {
+			'name'	: 'Algebra z geom. analit.',
+			'group'	: '7/10',
+			'type'	: 'C',
+			'start'	: '13:15',
+			'finish': '15:00',
+			'person': '',
+			'week'	: '',
+		},
+	], [
+		{
+			'name'	: 'Podstawy programowania',
+			'group'	: 'n',
+			'type'	: 'L',
+			'start'	: '09:15',
+			'finish': '11:00',
+			'person': 'Edward',
+			'week'	: 'np',
+		}, {
+			'name'	: 'Podstawy programowania',
+			'group'	: 'o',
+			'type'	: 'L',
+			'start'	: '09:15',
+			'finish': '11:00',
+			'person': '',
+			'week'	: 'p',
+		}, {
 			'name'	: 'Algebra z geom. analit.',
 			'group'	: '8/10',
 			'type'	: 'C',
 			'start'	: '13:15',
 			'finish': '15:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
@@ -436,7 +668,23 @@ zajecia = {
 			'start'	: '11:15',
 			'finish': '13:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
+		}, {
+			'name'	: 'Podstawy programowania',
+			'group'	: 'p',
+			'type'	: 'L',
+			'start'	: '13:15',
+			'finish': '15:00',
+			'person': 'Urszula',
+			'week'	: 'np',
+		}, {
+			'name'	: 'Podstawy programowania',
+			'group'	: 'q',
+			'type'	: 'L',
+			'start'	: '13:15',
+			'finish': '15:00',
+			'person': '',
+			'week'	: 'p',
 		}, {
 			'name'	: 'Logika dla informatyków',
 			'group'	: '9/10',
@@ -444,7 +692,7 @@ zajecia = {
 			'start'	: '17:05',
 			'finish': '18:45',
 			'person': 'Andrzej Gawrych-Żukowski',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
@@ -454,7 +702,7 @@ zajecia = {
 			'start'	: '13:15',
 			'finish': '15:00',
 			'person': 'Grzegorz Popek',
-			'week'	: 't',
+			'week'	: '',
 		}, {
 			'name'	: 'Algebra z geom. analit. A',
 			'group'	: '10/10',
@@ -462,7 +710,7 @@ zajecia = {
 			'start'	: '17:05',
 			'finish': '18:45',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}
 	]
 ],'pi':[
@@ -474,7 +722,7 @@ zajecia = {
 			'start'	: '09:15',
 			'finish': '11:00',
 			'person': 'Edward Bieleninik',
-			'week'	: 't',
+			'week'	: '',
 		},{
 			'name'	: 'Logika dla informatyków',
 			'group'	: '1/2',
@@ -482,7 +730,7 @@ zajecia = {
 			'start'	: '11:15',
 			'finish': '13:00',
 			'person': 'Zbigniew Huzar',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
@@ -492,7 +740,7 @@ zajecia = {
 			'start'	: '07:30',
 			'finish': '08:15',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}, {
 			'name'	: 'Algebra z geom. analit. A',
 			'group'	: '5/10',
@@ -500,7 +748,7 @@ zajecia = {
 			'start'	: '09:15',
 			'finish': '11:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
@@ -510,7 +758,7 @@ zajecia = {
 			'start'	: '07:30',
 			'finish': '09:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}, {
 			'name'	: 'Analiza matematyczna 1.1 A',
 			'group'	: '2/2',
@@ -518,7 +766,7 @@ zajecia = {
 			'start'	: '13:15',
 			'finish': '15:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
@@ -528,7 +776,7 @@ zajecia = {
 			'start'	: '11:15',
 			'finish': '13:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
@@ -538,7 +786,7 @@ zajecia = {
 			'start'	: '08:15',
 			'finish': '09:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}, {
 			'name'	: 'Logika dla informatyków',
 			'group'	: '8/10',
@@ -546,7 +794,7 @@ zajecia = {
 			'start'	: '11:15',
 			'finish': '13:00',
 			'person': 'Martin Tabakow',
-			'week'	: 't',
+			'week'	: '',
 		}
 	], [
 		{
@@ -556,7 +804,7 @@ zajecia = {
 			'start'	: '07:30',
 			'finish': '09:00',
 			'person': 'Edward Bieleninik',
-			'week'	: 't',
+			'week'	: '',
 		}, {
 			'name'	: 'Fizyka 1.1B',
 			'group'	: '9/10',
@@ -564,7 +812,7 @@ zajecia = {
 			'start'	: '11:15',
 			'finish': '12:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}, {
 			'name'	: 'Fizyka 1.1B',
 			'group'	: '10/10',
@@ -572,7 +820,7 @@ zajecia = {
 			'start'	: '12:15',
 			'finish': '13:00',
 			'person': '',
-			'week'	: 't',
+			'week'	: '',
 		}
 	]
 ]}
@@ -600,12 +848,12 @@ timetable_{}.setScope(7,19)
 
 	for i in range(len(zaj)):
 		for l in zaj[i]:
-			work = "timetable_{}.addEvent('{}', '{}', new Date(0,0,0,'{}','{}'), new Date(0,0,0,'{}','{}'), {{class:'{}', data: {{person:'{}', group:'{}', type:'{}', selected:0}}}})"
+			work = "timetable_{}.addEvent('{}', '{}', new Date(0,0,0,'{}','{}'), new Date(0,0,0,'{}','{}'), {{class:'{}', data: {{person:'{}', group:'{}', type:'{}', selected:0, week:'{}'}}}})"
 
 			startTime = l["start"].split(':')
 			endTime = l["finish"].split(':')
 			name = l["name"]
-			out += (work.format(day, name, day+"_"+str(i), startTime[0], startTime[1], endTime[0], endTime[1], name, l["person"], l["group"], l["type"])+"\n")
+			out += (work.format(day, name, day+"_"+str(i), startTime[0], startTime[1], endTime[0], endTime[1], name, l["person"], l["group"], l["type"], l["week"])+"\n")
 
 	out += """
 var renderer_{} = new Timetable.Renderer(timetable_{});

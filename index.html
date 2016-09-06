@@ -52,7 +52,17 @@
       entries = document.getElementsByClassName("time-entry")
       for(var i=0; i<entries.length; i++){
 
-        entries[i].title = entries[i].attributes["data-group"].value+" "+entries[i].attributes["data-type"].value+" "+entries[i].attributes["data-person"].value
+        var week = entries[i].attributes["data-week"].value
+        if(week != ""){
+          week = "\nTydzień: "+week;
+        }
+
+        var person = entries[i].attributes["data-person"].value
+        if(person != ""){
+          person = "\nWykladowca: "+person
+        }
+
+        entries[i].title = "Grupa: "+entries[i].attributes["data-group"].value+"\nTyp: "+entries[i].attributes["data-type"].value+person+week
 
 
         className = entries[i].className.split('time-entry')[1]
@@ -61,10 +71,18 @@
           console.log("Class not found in classes: "+className)
         }
 
-
-
         entries[i].style.background = colors[colorIndex]
         entries[i].style.borderColor = darkerColors[colorIndex]
+
+
+        if(entries[i].attributes["data-week"].value == 'np'){
+          entries[i].style.height = "50%"
+        } else if (entries[i].attributes["data-week"].value == 'p'){
+          entries[i].style.height = "50%"
+          entries[i].style.top = "50%"
+        } else if (entries[i].attributes["data-week"].value != 'w'){
+          console.log("Unrecognized week: " + entries[i].attributes["data-week"].value)
+        }
 
 
         entries[i].onclick=function() {
