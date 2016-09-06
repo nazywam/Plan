@@ -44,7 +44,7 @@
       }
 
 
-      classes = ["Logika dla informatyków", "Fizyka 1.1B", "Analiza matematyczna 1.1 A", "Podstawy programowania", "Algebra z geom. analit. A", "Organizacja sys. komputerowych", "Algebra z geom. analit."]
+      classes = ["Logika dla informatyków", "Fizyka 1.1B", "Analiza matematyczna 1.1 A", "Podstawy programowania", "Algebra z geom. analit. A", "Organizacja sys. komputerowych"]
 
       colors = ["#7f65b3", "#fd242a", "#839ea8", "#a25258", "#464b40", "#761468", "#963c2e", "#55ce4f", "#ca252e", "#3331a6"]
       darkerColors = ["#5f4593", "#dd040a", "#637e98", "#923238", "#262b20", "#560448", "#761c0e", "#35ae2f", "#aa050e", "#131196"]
@@ -80,7 +80,7 @@
         } else if (entries[i].attributes["data-week"].value == 'p'){
           entries[i].style.height = "50%"
           entries[i].style.top = "50%"
-        } else if (entries[i].attributes["data-week"].value != 'w'){
+        } else if (entries[i].attributes["data-week"].value != ''){
           console.log("Unrecognized week: " + entries[i].attributes["data-week"].value)
         }
 
