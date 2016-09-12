@@ -62,7 +62,7 @@
           person = "\nWykladowca: "+person
         }
 
-        entries[i].title = "Grupa: "+entries[i].attributes["data-group"].value+"\nTyp: "+entries[i].attributes["data-type"].value+person+week
+        entries[i].title = "Kod grupy: "+entries[i].attributes["data-code"].value + "\nGrupa: "+entries[i].attributes["data-group"].value+"\nTyp: "+entries[i].attributes["data-type"].value+person+week
 
 
         className = entries[i].className.split('time-entry')[1]
@@ -129,7 +129,7 @@
     entries = document.getElementsByClassName("time-entry")
     for(var i=0; i<entries.length; i++){
       if(entries[i].attributes["data-selected"].value == 1 && entries[i].style.visibility != "hidden"){
-        output.push(entries[i].textContent + " " + entries[i].attributes["data-type"].value + " " + entries[i].attributes["data-group"].value + " " + entries[i].attributes["data-person"].value + "\n")
+        output.push(entries[i].textContent + " " + entries[i].attributes["data-code"].value + " " + entries[i].attributes["data-type"].value + " " + entries[i].attributes["data-group"].value + " " + entries[i].attributes["data-person"].value + "\n")
       }
     }
     output.sort()
